@@ -37,8 +37,8 @@ Total records processed: ~8,000+ rows across 3 tables
 ## Files
 | File | Description |
 |------|-------------|
-| `climate_etl.ipynb` | Full ETL pipeline — extract, clean, load |
-| `sql_queries.sql` | 20 analytical SQL queries |
+| `climate data cleaning.ipynb` | Full ETL pipeline — extract, clean, load |
+| `climate_insights.sql` | 20 analytical SQL queries |
 
 ## What I Learned
 - How to handle nulls in time-series climate data without corrupting history
