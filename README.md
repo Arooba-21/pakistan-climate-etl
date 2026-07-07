@@ -12,7 +12,7 @@ Raw CSV Files → Python (Extract + Clean) → PostgreSQL (Load) → SQL (Analyt
 Source: Berkeley Earth via Kaggle  
 Files used: GlobalTemperatures.csv, GlobalLandTemperaturesByCountry.csv, 
 GlobalLandTemperaturesByMajorCity.csv  
-Total records processed: ~8,000+ rows across 3 tables
+Total records processed: ~7,000+ rows across 3 tables
 
 ## Data Cleaning Highlights
 - Handled nulls strategically — forward fill for small gaps, 
@@ -23,7 +23,7 @@ Total records processed: ~8,000+ rows across 3 tables
 
 ## Key Findings
 - 🌍 Global land temperature increased ~1.3°C from 1900 to 2015
-- 🇵🇰 Pakistan's hottest year on record: 1828 (avg X°C)
+- 🇵🇰 Pakistan's hottest year on record: 1828
 - 🏙️ Karachi warming rate: 4.44°C vs Pakistan national rate: 4.86°C
 - ☀️ Karachi exceeds 32°C most frequently in: Month 06 (june)
 
@@ -37,7 +37,7 @@ Total records processed: ~8,000+ rows across 3 tables
 ## Files
 | File | Description |
 |------|-------------|
-| `climate data cleaning.ipynb` | Full ETL pipeline — extract, clean, load |
+| `climate_etl.ipynb` | Full ETL pipeline — extract, clean, load |
 | `climate_insights.sql` | 20 analytical SQL queries |
 
 ## What I Learned
